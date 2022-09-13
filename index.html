@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Conversor de Bases | Gustavo de Santana</title>
+</head>
+<body>
+    <div class="background">
+        <div class="container">
+            <div class="backgroundCard">
+                <div class="header">
+                    <span class="title">Conversos de base</span>
+                </div>
+            </div>
+            <div class="backgroundCard backGroundClearGlass">
+                <span class="text">Insira um número decimal</span>
+            </div>
+            <div class="marginTop">
+                <input class="input" type="text" name="inpDecimal" id="inpDecimal">
+            </div>
+            
+            <div class="resultContanier">
+                <div class="boxResult">
+                    <div id="resultBin"></div>
+                </div>
+                <div class="boxResult">
+                    <div id="resultOct"></div>
+                </div>
+                <div class="boxResult">
+                    <div id="resultHex"></div>
+                </div>
+            </div>
+
+            <button class="buttons" onclick="convertBase()">Converter</button>
+            <button class="buttons" onclick="cleanResult()">Limpar</button>
+        </div>
+    </div>
+    <script src="./js/script.js"></script>
+</body>
+</html>
