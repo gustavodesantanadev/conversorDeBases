@@ -11,11 +11,14 @@ function convertBase(){
         let oct = decimal.toString(8);
         let hex = decimal.toString(16);
 
-        resultBin.innerHTML =`${bin}`;
+        resultBin.innerHTML =`<span class="bold bigText"> Binário</span> <br> 
+                                <span class="bold bigText">${bin}</span>`;
 
-        resultOct.innerHTML =`${oct}`;
+        resultOct.innerHTML =`<span class="bold bigText"> Octal</span> <br> 
+                                <span class="bold bigText">${oct}</span>`;
 
-        resultHex.innerHTML =`${hex}`;
+        resultHex.innerHTML =`<span class="bold bigText"> Hexadecimal</span> <br> 
+                                <span class="bold bigText">${hex}</span>`;
 }
 
 function cleanResult(){
